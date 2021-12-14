@@ -77,6 +77,7 @@ ML_Zoomcamp-Capstone-Project/ # Main Folder
 ```
 
 ## Models used and accuracy obtained:
+In my project I decided to use two CNN architectures: VGG16 and XCeption both are considered quite good for image classification tasks, and should make the task of classifying tons of fruit images duable.
 
 VGG16:
 
@@ -210,7 +211,7 @@ url= "https://w832b3ab81.execute-api.us-east-1.amazonaws.com/Test/predict"
 
 Now, simply run
 
-`python predict_test.py`
+`python test.py`
 
 Inside the main Folder, you should see the following output:
 ![lambda](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/deployment/lambda5.png?raw=true)
