@@ -11,7 +11,7 @@ In the following capstone project for the Machine Learning Zoomcamp from **Alexe
 ## Problem Description:
 
 
-<b> The problem: </b> Fruits are often hard to classify manually given the wide variety of types, it can be a really burdensome challenge due to the mass, creating an automated classifier could help in the future, so that this task can be done instantly.
+<b> The problem: </b> Fruits are often hard to classify manually given the wide variety of types, it can be a really burdensome challenge due to the mass in which fruits are produced, creating an automated classifier could help in the future, so that this task can be done instantly.
 
 ![alt](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/notebooks/fruits.png)
 
@@ -77,7 +77,7 @@ ML_Zoomcamp-Capstone-Project/ # Main Folder
 ```
 
 ## Models used and accuracy obtained:
-In my project I decided to use two CNN architectures: VGG16 and XCeption both are considered quite good for image classification tasks, and should make the task of classifying tons of fruit images duable.
+In my project I decided to use two CNN architectures: **VGG16** and **XCeption**, both are considered quite good for image classification tasks, and should make the task of classifying tons of fruit images duable.
 
 VGG16:
 
