@@ -78,15 +78,15 @@ ML_Zoomcamp-Capstone-Project/ # Main Folder
 
 ## Models used and accuracy obtained:
 
-VGG16
+VGG16:
 
 
 
+![alt](https://i.imgur.com/lsCtfIh.png)
 
 
 
-
-XCeption
+XCeption:
 
 
 
