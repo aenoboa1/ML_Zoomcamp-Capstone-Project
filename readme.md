@@ -115,10 +115,14 @@ You should see:
 
 ![docker2](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/deployment/docker2.png?raw=true)
 
-Inside another terminal session, run the following command:
+Inside another terminal session, run the following command inside the main folder of the project:
 
-`docker run -it --rm -p 9696:9696 fruits-model
+`python test.py
 `
+
+You should see(This really long input):
+![docker2](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/deployment/docker3.png?raw=true)
+
 
 
 ## References:
