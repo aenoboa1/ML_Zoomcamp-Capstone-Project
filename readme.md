@@ -1,6 +1,8 @@
+
+## Fruit Type Classification Project 🍉🍌🥭
 ## Introduction
 
-In the following capstone project, I decided to do an image classification task of different kinds of fruits using the [fruits-360](https://link) dataset, which provides <b> 131! </b> types of differents fruits, with some that may look pretty similar to the human eye, the dataset also presents the fruit images without any background , thus making it somewhat easier to train.
+In the following capstone project for the Machine Learning Zoomcamp from **Alexey Grigorev** , I decided to do an image classification task of different kinds of fruits using the [fruits-360](https://link) dataset, which provides <b> 131! </b> types of differents fruits, with some that may look pretty similar to the human eye, the dataset also presents the fruit images without any background , thus making it somewhat easier to train.
 
 
 
@@ -10,7 +12,7 @@ In the following capstone project, I decided to do an image classification task 
 
 
 <b> The problem: </b> Fruits are often hard to classify manually given the wide variety of types, it can be a really burdensome challenge due to the mass, creating an automated classifier could help in the future, so that this task can be done instantly.
-![alt](https://www.researchgate.net/publication/342916129/figure/fig2/AS:913043131207680@1594697854025/Illustration-of-few-images-from-Fruits-360-dataset.ppm)
+![alt]()
 
 
 
@@ -53,14 +55,46 @@ Project Description:
 |              Predict.py                 |  [Predict app]() |
 |              predict_test.py                 |  [To predict customer cancelling probability]() |
 
+
+**Project Structure:**
+```
+ML_Zoomcamp-Capstone-Project/ # Main Folder
+├── data # directory where the data should be placed
+│   ├── fruits-360 # data directory
+│   │   ├── papers
+│   │   ├── preview
+│   │   ├── Test
+│   │   ├── test-multiple_fruits
+│   │   └── Training
+│   └── fruits-360-original-size # alternative dataset still in works (do not use)
+├── img  # images for readme
+│   ├── deployment # images of deployment
+│   └── test_own_fruits #url images of fruits that can be tested
+├── models # models tflite and .h5
+└── __pycache__
+
+```
+
 ## Models used and accuracy obtained:
 
 VGG16
 
+
+
+
+
+
+
 XCeption
 
 
-Model chosen for deployment: XCeption
+
+
+
+
+Model chosen for deployment: **XCeption**
+In this case I choose XCeption because, even though VGG16 was obtaining a higher accuracy, it failed to generalize to images outside the main dataset, this should be further optimized.
+
 ## Deployment:
 
 The model was deployed using TFLite, You can see the output for the image I prepared like this:
@@ -71,7 +105,7 @@ The model was deployed using TFLite, You can see the output for the image I prep
 <b>Python version: ` Python 3.8`🐍  </b>
 
 
-Versions/requirements used ins ide the virtual environment:
+Versions/requirements used inside the virtual environment:
 
 - ` keras-image-helper`
 - `tflite-aws-lambda`
@@ -174,5 +208,6 @@ Inside the main Folder, you should see the following output:
 
 ## References:
 
+[1] https://github.com/alexeygrigorev/mlbookcamp-code "Alexey Grigorev"
 
-
+[2] Chollet, F. (2021). Deep learning with Python. Simon and Schuster.
