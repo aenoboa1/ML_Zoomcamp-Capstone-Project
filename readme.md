@@ -87,11 +87,20 @@ OR:
 ```console
 $ sudo /etc/init.d/docker start
 ```
-
+For arch based systems:
+```console
+$ systemctl start docker.service
+```
 
 
 ### DockerFile
 
+To build the docker image I prepared from this project, move inside the main directory, and run the following command :
+
+```$ docker build -t zoomcamp_project .
+```
+
+You should see:
 
 
 
