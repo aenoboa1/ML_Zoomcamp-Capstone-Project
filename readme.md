@@ -30,6 +30,7 @@ The dataset I choose for my project can be found <b>[here](https://www.kaggle.co
 │   │   └── Training  # Training folder with 67692 images of 131 fruits
 │   └── fruits-360-original-size
 ```
+**Filename format:** image_index_100.jpg (e.g. 32_100.jpg) or r_image_index_100.jpg (e.g. r_32_100.jpg) or r2_image_index_100.jpg or r3_image_index_100.jpg. "r" stands for rotated fruit. "r2" means that the fruit was rotated around the 3rd axis. "100" comes from image size (100x100 pixels).
 
  <b> NOTE :</b> Don't use the data inside `fruits-360-original-size`. This a new version that is not yet completed by the author.
 
