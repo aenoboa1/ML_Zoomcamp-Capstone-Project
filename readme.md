@@ -93,15 +93,32 @@ $ systemctl start docker.service
 ```
 
 
-### DockerFile
+### Running this Docker image locally
+
 
 To build the docker image I prepared from this project, move inside the main directory, and run the following command :
 
-```$ docker build -t zoomcamp_project .
+```console
+$ docker build -t fruits-model .
 ```
 
 You should see:
+![docker](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/deployment/docker.png?raw=true)
 
+
+Now run the docker build mapping the port 8080 to your host computer.
+
+`docker run -it --rm -p 8080:8080 fruits-model
+`
+You should see:
+
+
+![docker2](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/deployment/docker2.png?raw=true)
+
+Inside another terminal session, run the following command:
+
+`docker run -it --rm -p 9696:9696 fruits-model
+`
 
 
 ## References:
