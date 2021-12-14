@@ -123,8 +123,9 @@ Inside another terminal session, run the following command inside the main folde
 You should see(This really long input):
 ![docker2](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/deployment/docker3.png?raw=true)
 
-This is the output for the image I prepared, we can see that is indeed a :banana:
-**This image in reference:**
+This is the output for the image I prepared, we can see that is indeed a :banana: <br>
+
+**The image in reference:**
 <img src="https://i.imgur.com/Wj4Lajm.png" alt="drawing" width="200"/>
 
 
@@ -132,7 +133,28 @@ This is the output for the image I prepared, we can see that is indeed a :banana
  Inside `test.py` for the image url of your choice.
 
 
- 
+## Deployment in the cloud | AWS Lambda λ
+
+The repository was created with the following command:
+`aws ecr create-repository --repository-name fruits-tflite-images
+`
+**Output:**
+![docker2](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/deployment/lambda.png?raw=true)
+
+Pushing the docker image to the cloud:
+
+![docker4](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/deployment/docker4.png?raw=true)
+
+
+Testing the aws lambda function:
+![lambda](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/deployment/lambda3.png?raw=true)
+
+
+## Run this yourself | AWS Lambda λ
+
+In this fruits project, I used AWS Lambda to deploy my docker container to the cloud , I followed the steps described in zoomcamp week 9 from Alexey Grigorev . To run this easily , you should simply uncomment the following lines from `test.py`
+
+![lambda](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/deployment/lambda4.png?raw=true)
 
 ## References:
 
