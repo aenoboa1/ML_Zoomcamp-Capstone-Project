@@ -1,6 +1,6 @@
 ## Introduction
 
-In the following capstone project, I decided to do an image classification task of different kinds of fruits using the [fruits-360](https://link) dataset, which provides 131! types of differents fruits, with some that may look pretty similar to the human eye, the dataset also presents the fruit images without any background , thus making it somewhat easier to train.
+In the following capstone project, I decided to do an image classification task of different kinds of fruits using the [fruits-360](https://link) dataset, which provides <b> 131! </b> types of differents fruits, with some that may look pretty similar to the human eye, the dataset also presents the fruit images without any background , thus making it somewhat easier to train.
 
 
 
@@ -19,13 +19,20 @@ The problem: Fruits are often hard to classify manually given the wide variety o
 
 The dataset I choose for my project can be found <b>[here](https://www.kaggle.com/moltean/fruits) </b> you can download it using the kaggle website. Inside this dataset you can find tons of images containing different types of fruits, with the following structure
 
-```.
-├── ...
-├── test                    # Test files (alternatively `spec` or `tests`)
-│   ├── benchmarks          # Load and stress tests
-│   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-│   └── unit                # Unit tests
-└── ...
+```
+.
+└── fruits-360  # paper describing the dataset
+    ├── papers # contains images with multiple fruits. Some of them are partially covered by other fruits. This is an excelent test for real-world detection.
+    ├── preview
+    ├── Test
+    ├── test-multiple_fruits
+    └── Training
+
+
+├── papers
+├── Test # Test folder with 22688 images of 131 fruits 
+├── test-multiple_fruits # Contains images with multiple fruits. This is a good test for real-world detection.
+└── Training # Training folder with 67692 images of 131 fruits
 
 ```
 
@@ -50,7 +57,11 @@ Notebooks Description:
 
 ## Models used:
 
+VGG16
 
+
+
+XCeptionV3
 
 
 
