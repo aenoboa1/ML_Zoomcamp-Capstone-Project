@@ -89,8 +89,18 @@ VGG16:
 XCeption:
 
 
+![alt](https://i.imgur.com/SjFqYq8.png)
 
 
+### Accuracy by model:
+
+
+| Model           | Train  | Validation | Test   |
+|-----------------|--------|------------|--------|
+| XCeption Vanila | 99.60% | 94.48 %    | 90.45% |
+| Tuned XCeption  | 99.07% | 96.41%     | 92.94% |
+| VGG16 Vanila    | 99.60% | 96.50%     | 91.99% |
+| VGG16 Tuned     | 99.46  | 97.33%     | 95.53% |
 
 
 Model chosen for deployment: **XCeption**
