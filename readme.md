@@ -2,7 +2,7 @@
 ## Fruit Type Classification Project 🍉🍌🥭
 ## Introduction
 
-In the following capstone project for the Machine Learning Zoomcamp from **Alexey Grigorev** , I decided to do an image classification task of different kinds of fruits using the [fruits-360](https://link) dataset, which provides <b> 131! </b> types of differents fruits, with some that may look pretty similar to the human eye, the dataset also presents the fruit images without any background , thus making it somewhat easier to train.
+In the following capstone project for the Machine Learning Zoomcamp from **Alexey Grigorev** , I decided to do an image classification task of different kinds of fruits using the [fruits-360](https://www.kaggle.com/moltean/fruits) dataset, which provides <b> 131! </b> types of differents fruits, with some that may look pretty similar to the human eye, the dataset also presents the fruit images without any background , thus making it somewhat easier to train.
 
 
 
@@ -12,8 +12,8 @@ In the following capstone project for the Machine Learning Zoomcamp from **Alexe
 
 
 <b> The problem: </b> Fruits are often hard to classify manually given the wide variety of types, it can be a really burdensome challenge due to the mass, creating an automated classifier could help in the future, so that this task can be done instantly.
-![alt]()
 
+![alt](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/notebooks/fruits2.png)
 
 
 
@@ -69,6 +69,7 @@ ML_Zoomcamp-Capstone-Project/ # Main Folder
 │   └── fruits-360-original-size # alternative dataset still in works (do not use)
 ├── img  # images for readme
 │   ├── deployment # images of deployment
+│   ├── notebooks # images from the notebook
 │   └── test_own_fruits #url images of fruits that can be tested
 ├── models # models tflite and .h5
 └── __pycache__
