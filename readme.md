@@ -66,6 +66,28 @@ Model chosen for deployment: XCeption
 The model was deployed using TFLite, You can see the output for the image I prepared like this:
 ![lambda](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/deployment/lambda_image.png)
 
+### Virtual Environment : `Pipenv 2021.5.29` 
+
+<b>Python version: ` Python 3.8`🐍  </b>
+
+
+Versions/requirements used ins ide the virtual environment:
+
+- ` keras-image-helper`
+- `tflite-aws-lambda`
+
+Before running this dockerbuild, please verify you got docker daemon running.
+
+
+
+```console
+ $ sudo systemctl start docker
+```
+OR:
+```console
+$ sudo /etc/init.d/docker start
+```
+
 
 
 ### DockerFile
