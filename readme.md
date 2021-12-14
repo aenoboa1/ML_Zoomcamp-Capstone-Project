@@ -1,13 +1,17 @@
 ## Introduction
 
-In the following capstone project, I decided to do an image classification task of different kinds of fruits using the [fruits-360](https://link) dataset.
-## Looking at the bigger picture:
-
-Image you 
+In the following capstone project, I decided to do an image classification task of different kinds of fruits using the [fruits-360](https://link) dataset, which provides 131! types of differents fruits, with some that may look pretty similar to the human eye, the dataset also presents the fruit images without any background , thus making it somewhat easier to train.
 
 
+## Problem Description:
+The problem: Fruits are often hard to classify manually given the wide variety of types, creating an automated classifier could help in the future, so that this task can be done instantly.
 
-## Project Navigation
+
+
+## Fruit types to be classified
+
+
+## Table of contents
 
 
 Notebooks Description:
@@ -16,13 +20,21 @@ Notebooks Description:
 
 | Description | Link  |
 |-------------------------------|---|
-| Notebook | [Explanatory notebook with EDA and Training](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/notebook.ipynb)  |
-|                Hotel booking demand data set               |  [csv file](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/input/hotel_bookings.csv) |
-|                   DockerFile commands           |  [dockerfile](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/Dockerfile) |
-|              Pipenv file                 |  [Pipfile](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/Pipfile) |
-|              Train.py                 |  [Training of final XGBoost model script](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/train.py) |
-|              Predict.py                 |  [Predict app](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/predict.py) |
-|              predict_test.py                 |  [To predict customer cancelling probability](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/predict_test.py) |
+| Notebook | [Explanatory notebook with EDA and Training of XCeption Model]()  |
+|                Hotel booking demand data set               |  [csv file]() |
+|                   DockerFile commands           |  [dockerfile]() |
+|              Pipenv file                 |  [Pipfile]() |
+|              Train.py                 |  [Training of final XGBoost model script]() |
+|              Predict.py                 |  [Predict app]() |
+|              predict_test.py                 |  [To predict customer cancelling probability]() |
+
+## Models used:
+
+
+
 
 
 ## References:
+
+
+
