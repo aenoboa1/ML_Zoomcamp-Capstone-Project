@@ -123,7 +123,16 @@ Inside another terminal session, run the following command inside the main folde
 You should see(This really long input):
 ![docker2](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/deployment/docker3.png?raw=true)
 
+This is the output for the image I prepared, we can see that is indeed a :banana:
+**This image in reference:**
+<img src="https://i.imgur.com/Wj4Lajm.png" alt="drawing" width="200"/>
 
+
+ This image for testing I downloaded from Google ( it's not from the dataset), you can try your own images too, just change the ` data = {'url': 'https://i.imgur.com/Wj4Lajm.png'} `
+ Inside `test.py` for the image url of your choice.
+
+
+ 
 
 ## References:
 
