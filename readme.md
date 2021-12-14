@@ -63,8 +63,9 @@ XCeption
 Model chosen for deployment: XCeption
 ## Deployment:
 
-The model was deployed using TFLite, You can see the input for the image I prepared like this:
-![alt](/home/elegant00/Dropbox/ML_Zoomcamp-Capstone-Project/img/deployment/lambda_image.png)
+The model was deployed using TFLite, You can see the output for the image I prepared like this:
+![lambda](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/deployment/lambda_image.png)
+
 
 
 ## References:
