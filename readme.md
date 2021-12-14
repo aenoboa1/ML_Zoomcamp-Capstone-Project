@@ -154,7 +154,23 @@ Testing the aws lambda function:
 
 In this fruits project, I used AWS Lambda to deploy my docker container to the cloud , I followed the steps described in zoomcamp week 9 from Alexey Grigorev . To run this easily , you should simply uncomment the following lines from `test.py`
 
-![lambda](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/deployment/lambda4.png?raw=true)
+```python
+
+#url = 'http://localhost:8080/2015-03-31/functions/function/invocations'
+url= "https://w832b3ab81.execute-api.us-east-1.amazonaws.com/Test/predict"
+
+```
+
+
+
+Now, simply run
+
+`python predict_test.py`
+
+Inside the main Folder, you should see the following output:
+![lambda](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/deployment/lambda5.png?raw=true)
+
+
 
 ## References:
 
