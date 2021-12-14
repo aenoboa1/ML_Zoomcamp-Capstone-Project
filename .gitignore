@@ -1,4 +1,5 @@
-data
+data/fruits-360
+data/fruits-360-original-size
 Food Classification with Deep Learning in Keras.ipynb
 Xception_v1_01_0.806.h5
 Xception_v1_02_0.825.h5
