@@ -13,7 +13,7 @@ In the following capstone project for the Machine Learning Zoomcamp from **Alexe
 
 <b> The problem: </b> Fruits are often hard to classify manually given the wide variety of types, it can be a really burdensome challenge due to the mass, creating an automated classifier could help in the future, so that this task can be done instantly.
 
-![alt](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/notebooks/fruits2.png)
+![alt](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/img/notebooks/fruits.png)
 
 
 
@@ -47,13 +47,13 @@ Project Description:
 
 | Description | Link  |
 |-------------------------------|---|
-| Notebook | [Explanatory notebook with EDA and Training of XCeption Model]()  |
-| Second Notebook|  [Explanatory notebook with Traning and tunning of VGA16 Model]() |
-|                   DockerFile            |  [dockerfile]() |
-|              Pipenv file                 |  [Pipfile]() |
-|              Train.py                 |  [Training of final XGBoost model script]() |
-|              Predict.py                 |  [Predict app]() |
-|              predict_test.py                 |  [To predict customer cancelling probability]() |
+| Notebook                      | [Explanatory notebook with EDA and Training of XCeption Model](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/FruitsProject_XCeption.ipynb)  |
+| Second Notebook                |  [Explanatory notebook with Traning and tunning of VGA16 Model](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/FruitsProject_VGG.ipynb) |
+| Third Notebook                |  [Notebook TF to TFLite Conversion](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/tf-to_tfLITE.ipynb) |
+|                   DockerFile            |  [dockerfile](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/dockerfile) |
+|                   XCeption Deployed Model            |  [Tflite Xception](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/models/XCeption_V1_Fruits.tflite) |
+|              Lambda Function                 |  [Lambda function](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/lambda_function.py) |
+|              test.py                 |  [To test a fruit prediction](https://github.com/aenoboa1/ML_Zoomcamp-Capstone-Project/blob/master/test.py) |
 
 
 **Project Structure:**
